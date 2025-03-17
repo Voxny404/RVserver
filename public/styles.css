@@ -1,0 +1,44 @@
+
+/* CSS for the container class */
+body, html {
+  height: 100%; /* Ensure full height */
+  margin: 0;    /* Remove default margins */
+  overflow: hidden;
+  background-color: #4F959D
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Center content vertically */
+  align-items: center;      /* Center content horizontally */
+  height: 100%;             /* Take full height of the viewport */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  font-size: 16px;
+  color: #98D2C0;
+
+}
+.logo {
+  width: 100px;  /* Set width of the logo image */
+  height: auto;  /* Maintain aspect ratio */
+  margin-bottom: 20px; /* Space between the logo and text */
+  animation: rotateLogo 3s infinite linear;
+}
+
+/* Define the rotation animation */
+@keyframes rotateLogo {
+  0% {
+    transform: rotate(0deg); /* Start at 0 degrees */
+  }
+  100% {
+    transform: rotate(360deg); /* Rotate to 360 degrees */
+  }
+}

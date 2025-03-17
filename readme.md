@@ -33,7 +33,7 @@ The server will start and listen on http://localhost:8080 by default.
 Serving Static Files
 
 Simply place your frontend files inside the public/ directory. Example:
-
+````
 RVserver/
 ├── src/
 ├── public/
@@ -42,7 +42,7 @@ RVserver/
 │   ├── script.js
 │   ├── images/
 │   │   ├── logo.png
-
+````
 Now, when you access http://localhost:8080/index.html, it will serve public/index.html.
 
 ### Configuration
